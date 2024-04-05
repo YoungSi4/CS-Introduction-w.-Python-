@@ -23,7 +23,7 @@ from cs1robots import * # cs1robots 라이브러리의 모든 기능(*)을 불�
 
 # 동전을 줍고 돌아오는 맵
 # 여러 월드맵이 있고, 시험도 이 중에서 나올 예정
-load_world('worlds/hurdles1.wld')
+load_world('../worlds/hurdles1.wld')
 hubo = Robot()
 hubo.set_trace('blue')
 
